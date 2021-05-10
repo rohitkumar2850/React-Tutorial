@@ -16,13 +16,20 @@ import Inline from './component/Inline';
 import './appStyles.css';
 import styles from './appStyles.module.css';
 import Form from './component/Form';
+import LifecycleA from './component/LifecycleA';
+import FragmentDemo from './component/FragmentDemo';
+import Table from './component/Table';
+import PureComp from './component/PureComp';
+import ParentComp from './component/ParentComp';
 
 function App() {
   return (
     <div className="App">
-    <Form />
-
-
+    <ParentComp />
+    {/* <Table /> */}
+    {/* <FragmentDemo /> */}
+    {/* <LifecycleA />
+    <Form /> */}
     {/*<h1 className='error'>Error</h1>
     <h1 className={styles.success}>Success</h1>
     <Inline />
