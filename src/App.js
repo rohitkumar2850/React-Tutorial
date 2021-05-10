@@ -21,11 +21,15 @@ import FragmentDemo from './component/FragmentDemo';
 import Table from './component/Table';
 import PureComp from './component/PureComp';
 import ParentComp from './component/ParentComp';
+import RefsDemo from './component/RefsDemo';
+import FocusInput from './component/FocusInput';
 
 function App() {
   return (
     <div className="App">
-    <ParentComp />
+    <FocusInput />
+    {/* <RefsDemo /> */}
+    {/* <ParentComp /> */}
     {/* <Table /> */}
     {/* <FragmentDemo /> */}
     {/* <LifecycleA />
