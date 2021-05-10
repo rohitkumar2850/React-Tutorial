@@ -1,40 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
-import { Greet } from './component/Greet';
-import Welcome  from './component/Welcome';
-import Hello from './component/Hello';
-import Message from './component/Message';
-import Counter from './component/Counter';
-import FunctionClick from './component/FunctionClick';
-import ClassClick from './component/ClassClick';
-import EventBind from './component/EventBind';
-import ParentComponenet from './component/ParentComponenet';
-import UserGreetings from './component/UserGreetings';
-import NameList from './component/NameList';
-import Stylesheet from './component/Stylesheet';
-import Inline from './component/Inline';
-import './appStyles.css';
-import styles from './appStyles.module.css';
-import Form from './component/Form';
-import LifecycleA from './component/LifecycleA';
-import FragmentDemo from './component/FragmentDemo';
-import Table from './component/Table';
-import PureComp from './component/PureComp';
-import ParentComp from './component/ParentComp';
-import RefsDemo from './component/RefsDemo';
-import FocusInput from './component/FocusInput';
+import logo from "./logo.svg";
+import "./App.css";
+import { Greet } from "./component/Greet";
+import Welcome from "./component/Welcome";
+import Hello from "./component/Hello";
+import Message from "./component/Message";
+import Counter from "./component/Counter";
+import FunctionClick from "./component/FunctionClick";
+import ClassClick from "./component/ClassClick";
+import EventBind from "./component/EventBind";
+import ParentComponenet from "./component/ParentComponenet";
+import UserGreetings from "./component/UserGreetings";
+import NameList from "./component/NameList";
+import Stylesheet from "./component/Stylesheet";
+import Inline from "./component/Inline";
+import "./appStyles.css";
+import styles from "./appStyles.module.css";
+import Form from "./component/Form";
+import LifecycleA from "./component/LifecycleA";
+import FragmentDemo from "./component/FragmentDemo";
+import Table from "./component/Table";
+import PureComp from "./component/PureComp";
+import ParentComp from "./component/ParentComp";
+import RefsDemo from "./component/RefsDemo";
+import FocusInput from "./component/FocusInput";
+import FRParentInput from "./component/FRParentInput";
+import PortalDemo from "./component/PortalDemo";
+import Hero from "./component/Hero";
+import ErrorBoundary from "./component/ErrorBoundary";
+import ClickCounter from "./component/ClickCounter";
+import Hovercounter from "./component/Hovercounter";
 
 function App() {
   return (
     <div className="App">
-    <FocusInput />
-    {/* <RefsDemo /> */}
-    {/* <ParentComp /> */}
-    {/* <Table /> */}
-    {/* <FragmentDemo /> */}
-    {/* <LifecycleA />
+    
+    <ClickCounter name='Rohit'/>
+    <Hovercounter />
+      {/* <ErrorBoundary>
+        <Hero heroName="Batman" />
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="Superman" />
+      </ErrorBoundary>
+
+      <ErrorBoundary>
+        <Hero heroName="jocker" />
+      </ErrorBoundary>
+     */}
+      {/* <PortalDemo /> */}
+      {/* <FRParentInput /> */}
+      {/* <FocusInput /> */}
+      {/* <RefsDemo /> */}
+      {/* <ParentComp /> */}
+      {/* <Table /> */}
+      {/* <FragmentDemo /> */}
+      {/* <LifecycleA />
     <Form /> */}
-    {/*<h1 className='error'>Error</h1>
+      {/*<h1 className='error'>Error</h1>
     <h1 className={styles.success}>Success</h1>
     <Inline />
     <Stylesheet primary={true}/>
@@ -59,4 +82,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
